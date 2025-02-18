@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/section1/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section5/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/notificationservice/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

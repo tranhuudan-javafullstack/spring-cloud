@@ -1,0 +1,2 @@
+#neu chay doc lap, khong chay docker-compose thi chay lenh sau bang docker
+docker run --name mykeycloak -d -p 9000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -t quay.io/keycloak/keycloak:latest start-dev

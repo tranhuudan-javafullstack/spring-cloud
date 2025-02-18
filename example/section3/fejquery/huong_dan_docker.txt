@@ -1,0 +1,8 @@
+#0. Mo terminal , tro den thu muc hien tai, chua Dockerfile (fejquery)
+#1. Chay lenh docker build
+docker build -t fejquery .
+
+#2. Chay lenh docker run
+docker run -d -p 5500:80 -t fejquery
+
+#Luu y: Khi chay trinh duyet, chuyen ve dia chi 127.0.0.1

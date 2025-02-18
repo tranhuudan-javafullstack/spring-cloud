@@ -1,0 +1,190 @@
+2024-08-21T09:23:22.903+07:00  INFO 34672 --- [main] [statistic-service,,]j.i.s.StatisticserviceApplication        : Starting StatisticserviceApplication using Java 17.0.9 with PID 34672 (C:\Users\DINHCUONG\Documents\GitHub\springcloud\tutorials-2024\section8\statisticservice\target\classes started by DINHCUONG in C:\Users\DINHCUONG\Documents\GitHub\springcloud\tutorials-2024\section8\statisticservice)
+2024-08-21T09:23:22.905+07:00  INFO 34672 --- [main] [statistic-service,,]j.i.s.StatisticserviceApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T09:23:22.929+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-21T09:23:22.929+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=statistic-service, profiles=[default], label=null, version=null, state=null
+2024-08-21T09:23:23.671+07:00  INFO 34672 --- [main] [statistic-service,,].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-21T09:23:23.772+07:00  INFO 34672 --- [main] [statistic-service,,].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2024-08-21T09:23:23.928+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2c9c5cd-81a0-3299-9235-b6d5392c18c8
+2024-08-21T09:23:24.160+07:00  WARN 34672 --- [main] [statistic-service,,]trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-21T09:23:24.163+07:00  WARN 34672 --- [main] [statistic-service,,]trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-21T09:23:24.407+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9082 (http)
+2024-08-21T09:23:24.415+07:00  INFO 34672 --- [main] [statistic-service,,]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T09:23:24.415+07:00  INFO 34672 --- [main] [statistic-service,,]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-21T09:23:24.483+07:00  INFO 34672 --- [main] [statistic-service,,]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T09:23:24.483+07:00  INFO 34672 --- [main] [statistic-service,,]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2024-08-21T09:23:24.972+07:00  INFO 34672 --- [main] [statistic-service,,]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-21T09:23:25.012+07:00  INFO 34672 --- [main] [statistic-service,,]org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-21T09:23:25.042+07:00  INFO 34672 --- [main] [statistic-service,,]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-21T09:23:25.253+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-21T09:23:25.271+07:00  INFO 34672 --- [main] [statistic-service,,]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-21T09:23:25.428+07:00  INFO 34672 --- [main] [statistic-service,,]com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dc72c0c
+2024-08-21T09:23:25.430+07:00  INFO 34672 --- [main] [statistic-service,,]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-21T09:23:25.466+07:00  WARN 34672 --- [main] [statistic-service,,]org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-21T09:23:26.016+07:00  INFO 34672 --- [main] [statistic-service,,]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-21T09:23:26.058+07:00  INFO 34672 --- [main] [statistic-service,,]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-21T09:23:26.404+07:00  WARN 34672 --- [main] [statistic-service,,]JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-21T09:23:27.012+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2024-08-21T09:23:27.726+07:00  INFO 34672 --- [main] [statistic-service,,]DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-21T09:23:27.773+07:00  WARN 34672 --- [main] [statistic-service,,]iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-21T09:23:27.827+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-21T09:23:27.874+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-21T09:23:27.877+07:00  INFO 34672 --- [main] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-21T09:23:27.893+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-21T09:23:28.013+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-21T09:23:28.016+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-21T09:23:28.017+07:00  INFO 34672 --- [main] [statistic-service,,]c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-21T09:23:28.022+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724207008021 with initial instances count: 1
+2024-08-21T09:23:28.028+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.c.n.e.s.EurekaServiceRegistry        : Registering application STATISTIC-SERVICE with eureka with status UP
+2024-08-21T09:23:28.029+07:00  INFO 34672 --- [main] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724207008029, current=UP, previous=STARTING]
+2024-08-21T09:23:28.030+07:00  INFO 34672 --- [DiscoveryClient-InstanceInfoReplicator-0] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : DiscoveryClient_STATISTIC-SERVICE/host.docker.internal:statistic-service:9082: registering service...
+2024-08-21T09:23:28.043+07:00  INFO 34672 --- [main] [statistic-service,,]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9082 (http) with context path '/'
+2024-08-21T09:23:28.044+07:00  INFO 34672 --- [main] [statistic-service,,].s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9082
+2024-08-21T09:23:28.059+07:00  INFO 34672 --- [DiscoveryClient-InstanceInfoReplicator-0] [statistic-service,,]com.netflix.discovery.DiscoveryClient    : DiscoveryClient_STATISTIC-SERVICE/host.docker.internal:statistic-service:9082 - registration status: 204
+2024-08-21T09:23:28.155+07:00  INFO 34672 --- [main] [statistic-service,,]j.i.s.StatisticserviceApplication        : Started StatisticserviceApplication in 5.996 seconds (process running for 6.296)
+2024-08-21T09:28:27.900+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:33:27.913+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:38:27.917+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:43:27.921+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:48:27.935+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:53:27.947+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T09:53:55.504+07:00  INFO 34672 --- [http-nio-9082-exec-1] [statistic-service,,]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T09:53:55.504+07:00  INFO 34672 --- [http-nio-9082-exec-1] [statistic-service,,]o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T09:53:55.506+07:00  INFO 34672 --- [http-nio-9082-exec-1] [statistic-service,,]o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-21T09:53:55.620+07:00  INFO 34672 --- [http-nio-9082-exec-1] [statistic-service,66c556c3b9535d0bac600e54ee0dab1b,dee3e296d3dcd244]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T09:54:02.433+07:00  INFO 34672 --- [http-nio-9082-exec-2] [statistic-service,66c556ca80f947fae6cbe63cf9325e58,ca497ccd6d9925ce]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T09:58:27.955+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:01:05.244+07:00  INFO 34672 --- [http-nio-9082-exec-3] [statistic-service,66c55871ced1089ad86e46b9616e7e41,ac11d9322d6433cf]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:01:14.091+07:00  INFO 34672 --- [http-nio-9082-exec-4] [statistic-service,66c5587a421690db93348401580fcd0a,0ef0c162ea5e85d5]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:03:27.962+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:04:56.015+07:00  INFO 34672 --- [http-nio-9082-exec-5] [statistic-service,66c55958657d159aa85f28216cefd7cc,370325622b2847b3]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:04:58.704+07:00  INFO 34672 --- [http-nio-9082-exec-6] [statistic-service,66c5595a7603d387701342cda506cc81,39859d9e70fcb72f]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:06:00.904+07:00  INFO 34672 --- [http-nio-9082-exec-7] [statistic-service,66c559988b267b95b2124457d259e0e8,fea69e7ecc9ea28e]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:06:07.905+07:00  INFO 34672 --- [http-nio-9082-exec-8] [statistic-service,66c5599fa69841f123c834f8424813bb,8535dd3bc28f3b06]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:07:33.004+07:00  INFO 34672 --- [http-nio-9082-exec-9] [statistic-service,66c559f40c76a23a06ac6efd6312cd95,d5baa524033fe3d1]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:07:37.797+07:00  INFO 34672 --- [http-nio-9082-exec-10] [statistic-service,66c559f9ff8e5297328936c1c8824dbc,8542730c398a86d0]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:07:38.724+07:00  INFO 34672 --- [http-nio-9082-exec-1] [statistic-service,66c559fa2ee22e35385bfa31b6922fa4,ec60b770124a038c]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:07:39.659+07:00  INFO 34672 --- [http-nio-9082-exec-2] [statistic-service,66c559fbfabff908d3202798fe7ff39d,0b94eabdfaf2eb9d]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T10:08:27.975+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:13:27.987+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:18:28.002+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:23:28.013+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:28:28.016+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:33:28.027+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:38:28.033+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:43:28.043+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:48:28.051+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:53:28.057+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T10:58:28.072+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:03:28.078+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:08:28.080+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:13:28.084+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:18:28.095+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:19:26.970+07:00  INFO 34672 --- [http-nio-9082-exec-3] [statistic-service,66c56ace30af788d6ef5dbbbb3805741,f68303165c9cb2f8]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T11:20:38.706+07:00  INFO 34672 --- [http-nio-9082-exec-4] [statistic-service,66c56b164e24a5e2a7359d096a357fbb,85de10e1cdb45a51]j.i.s.controller.StatisticController     : StatisticController: Add statistic
+2024-08-21T11:23:28.097+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:28:28.113+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:33:28.121+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:38:28.132+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:43:28.143+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:48:28.147+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:53:28.154+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T11:58:28.163+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:03:28.170+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:08:28.176+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:13:28.187+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:18:28.204+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:23:28.209+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:28:28.217+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:33:28.221+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:38:28.233+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:43:28.248+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:48:28.254+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:53:28.263+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T12:58:28.277+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:03:28.289+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:08:28.297+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:13:28.318+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:18:28.328+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:23:28.332+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:28:28.346+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:33:28.357+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:38:28.371+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:43:28.377+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:48:28.390+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:53:28.404+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T13:58:28.405+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:03:28.413+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:08:28.424+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:13:28.435+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:18:28.439+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:23:28.455+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:28:28.469+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:33:28.470+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:38:28.477+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:43:28.490+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:48:28.503+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:53:28.513+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:58:28.527+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T14:59:15.298+07:00  WARN 34672 --- [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [statistic-service,,]z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-08-21T14:59:15.298+07:00  WARN 34672 --- [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] [statistic-service,,]z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:49) ~[spring-boot-actuator-autoconfigure-3.3.1.jar:3.3.1]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:68) ~[spring-boot-actuator-autoconfigure-3.3.1.jar:3.3.1]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:40) ~[spring-boot-actuator-autoconfigure-3.3.1.jar:3.3.1]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.4.0.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.4.0.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.4.0.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91) ~[httpclient5-5.3.1.jar:5.3.1]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.3.1.jar:5.3.1]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889) ~[spring-web-6.1.10.jar:6.1.10]
+	... 9 common frames omitted
+
+2024-08-21T15:03:28.537+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:08:28.550+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:13:28.557+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:18:28.571+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:23:28.577+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:28:28.583+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-21T15:33:28.589+07:00  INFO 34672 --- [AsyncResolver-bootstrap-executor-0] [statistic-service,,]c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

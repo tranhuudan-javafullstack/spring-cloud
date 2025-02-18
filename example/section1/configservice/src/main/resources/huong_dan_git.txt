@@ -1,0 +1,5 @@
+#cai dat gitbash tu google search
+#cmd vao thu muc shared, go lenh
+git init
+git add .
+git commit -m 'init'
