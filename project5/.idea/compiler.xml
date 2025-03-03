@@ -6,130 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for accountservice" enabled="true">
-        <sourceOutputDir name="../../section6/accountservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section6/accountservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="accountservice (1)" />
-      </profile>
-      <profile name="Annotation profile for notificationservice" enabled="true">
-        <sourceOutputDir name="../../section6/notificationservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section6/notificationservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="notificationservice (1)" />
-      </profile>
-      <profile name="Annotation profile for statisticservice" enabled="true">
-        <sourceOutputDir name="../../section6/statisticservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section6/statisticservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="statisticservice (1)" />
-      </profile>
-      <profile name="Annotation profile for accountservice (2)" enabled="true">
-        <sourceOutputDir name="../../section7/accountservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section7/accountservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="accountservice (2)" />
-      </profile>
-      <profile name="Annotation profile for notificationservice (2)" enabled="true">
-        <sourceOutputDir name="../../section7/notificationservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section7/notificationservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="notificationservice (2)" />
-      </profile>
-      <profile name="Annotation profile for statisticservice (2)" enabled="true">
-        <sourceOutputDir name="../../section7/statisticservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../section7/statisticservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="statisticservice (2)" />
+        <module name="monitoradmin" />
+        <module name="configservice" />
+        <module name="authservice" />
+        <module name="accountservice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="accountservice (3)" target="17" />
-      <module name="accountservice (4)" target="17" />
-      <module name="accountservice (5)" target="17" />
-      <module name="accountservice (6)" target="17" />
-      <module name="authservice" target="17" />
-      <module name="authservice (1)" target="17" />
-      <module name="authservice (2)" target="17" />
-      <module name="clientregisterservice" target="17" />
-      <module name="clientregisterservice (1)" target="17" />
-      <module name="clientregisterservice (2)" target="17" />
-      <module name="configservice (1)" target="17" />
-      <module name="configservice (2)" target="17" />
-      <module name="configservice (3)" target="17" />
-      <module name="configservice (4)" target="17" />
-      <module name="discoveryservice (1)" target="17" />
-      <module name="discoveryservice (2)" target="17" />
-      <module name="discoveryservice (3)" target="17" />
-      <module name="discoveryservice (4)" target="17" />
-      <module name="gatewayservice (1)" target="17" />
-      <module name="gatewayservice (2)" target="17" />
-      <module name="gatewayservice (3)" target="17" />
-      <module name="gatewayservice (4)" target="17" />
-      <module name="monitoradmin (1)" target="17" />
-      <module name="monitoradmin (2)" target="17" />
-      <module name="monitoradmin (3)" target="17" />
-      <module name="monitoradmin (4)" target="17" />
-      <module name="notificationservice (3)" target="17" />
-      <module name="notificationservice (4)" target="17" />
-      <module name="notificationservice (5)" target="17" />
-      <module name="notificationservice (6)" target="17" />
-      <module name="statisticservice (3)" target="17" />
-      <module name="statisticservice (4)" target="17" />
-      <module name="statisticservice (5)" target="17" />
-      <module name="statisticservice (6)" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="accountservice" options="-parameters" />
-      <module name="accountservice (1)" options="-parameters" />
-      <module name="accountservice (2)" options="-parameters" />
-      <module name="accountservice (3)" options="-parameters" />
-      <module name="accountservice (4)" options="-parameters" />
-      <module name="accountservice (5)" options="-parameters" />
-      <module name="accountservice (6)" options="-parameters" />
       <module name="authservice" options="-parameters" />
-      <module name="authservice (1)" options="-parameters" />
-      <module name="authservice (2)" options="-parameters" />
-      <module name="clientregisterservice" options="-parameters" />
-      <module name="clientregisterservice (1)" options="-parameters" />
-      <module name="clientregisterservice (2)" options="-parameters" />
       <module name="configservice" options="-parameters" />
-      <module name="configservice (1)" options="-parameters" />
-      <module name="configservice (2)" options="-parameters" />
-      <module name="configservice (3)" options="-parameters" />
-      <module name="configservice (4)" options="-parameters" />
-      <module name="discoveryservice" options="-parameters" />
-      <module name="discoveryservice (1)" options="-parameters" />
-      <module name="discoveryservice (2)" options="-parameters" />
-      <module name="discoveryservice (3)" options="-parameters" />
-      <module name="discoveryservice (4)" options="-parameters" />
-      <module name="gatewayservice" options="-parameters" />
-      <module name="gatewayservice (1)" options="-parameters" />
-      <module name="gatewayservice (2)" options="-parameters" />
-      <module name="gatewayservice (3)" options="-parameters" />
-      <module name="gatewayservice (4)" options="-parameters" />
       <module name="monitoradmin" options="-parameters" />
-      <module name="monitoradmin (1)" options="-parameters" />
-      <module name="monitoradmin (2)" options="-parameters" />
-      <module name="monitoradmin (3)" options="-parameters" />
-      <module name="monitoradmin (4)" options="-parameters" />
-      <module name="notificationservice" options="-parameters" />
-      <module name="notificationservice (1)" options="-parameters" />
-      <module name="notificationservice (2)" options="-parameters" />
-      <module name="notificationservice (3)" options="-parameters" />
-      <module name="notificationservice (4)" options="-parameters" />
-      <module name="notificationservice (5)" options="-parameters" />
-      <module name="notificationservice (6)" options="-parameters" />
-      <module name="statisticservice" options="-parameters" />
-      <module name="statisticservice (1)" options="-parameters" />
-      <module name="statisticservice (2)" options="-parameters" />
-      <module name="statisticservice (3)" options="-parameters" />
-      <module name="statisticservice (4)" options="-parameters" />
-      <module name="statisticservice (5)" options="-parameters" />
-      <module name="statisticservice (6)" options="-parameters" />
     </option>
   </component>
 </project>
