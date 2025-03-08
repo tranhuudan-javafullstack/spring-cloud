@@ -8,6 +8,19 @@
         <option value="$PROJECT_DIR$/section1/monitoradmin/pom.xml" />
         <option value="$PROJECT_DIR$/section1/configservice/pom.xml" />
         <option value="$PROJECT_DIR$/section1/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section1/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section2/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/section3/statisticservice/pom.xml" />
         <option value="$PROJECT_DIR$/section1/gatewayservice/pom.xml" />
       </list>
     </option>

@@ -3,7 +3,21 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/section1/accountservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/section1/authservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section1/clientregisterservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/section1/configservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section1/discoveryservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section1/gatewayservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/section1/monitoradmin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section1/notificationservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section1/statisticservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section2/accountservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section2/notificationservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section2/statisticservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/accountservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/configservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/discoveryservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/gatewayservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/notificationservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section3/statisticservice/src/main/java" charset="UTF-8" />
   </component>
 </project>

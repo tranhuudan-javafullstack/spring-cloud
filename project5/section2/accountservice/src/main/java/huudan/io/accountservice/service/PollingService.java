@@ -34,12 +34,12 @@ public class PollingService {
                     (result, ex) -> {
                         if (ex == null) {
                             logger.info("Sent message=[" + messageDTO.getId() +
-                                        "] with offset=[" + result.getRecordMetadata().offset() + "]");
+                                    "] with offset=[" + result.getRecordMetadata().offset() + "]");
                             messageDTO.setStatus(true);// success
                             messageRepo.save(messageDTO);
                         } else {
                             logger.error("Unable to send message=[" +
-                                         messageDTO.getId() + "] due to : " + ex.getMessage());
+                                    messageDTO.getId() + "] due to : " + ex.getMessage());
                         }
                     }
             );
@@ -67,12 +67,12 @@ public class PollingService {
                     (result, ex) -> {
                         if (ex == null) {
                             logger.info("Sent message=[" + statisticDTO.getId() +
-                                        "] with offset=[" + result.getRecordMetadata().offset() + "]");
+                                    "] with offset=[" + result.getRecordMetadata().offset() + "]");
                             statisticDTO.setStatus(true);// success
                             statisticRepo.save(statisticDTO);
                         } else {
                             logger.error("Unable to send message=[" +
-                                         statisticDTO.getId() + "] due to : " + ex.getMessage());
+                                    statisticDTO.getId() + "] due to : " + ex.getMessage());
                         }
                     }
             );
