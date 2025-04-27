@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/project1/jobms/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/companyms/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/firstjobapp/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/reviewms/pom.xml" />
+        <option value="$PROJECT_DIR$/project1/service-reg/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section2/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section2/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section2/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section1/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project5/section3/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project-demo/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project-demo/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/project-demo/service-reg/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_14/message/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_17/message/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/eazy-bom/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/project2/section_20/message/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/limits-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/03.microservices/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/98.microservices-starting-point-for-v1-learners/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/98.microservices-starting-point-for-v1-learners/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project3/98.microservices-starting-point-for-v1-learners/naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/clientregisterservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section1/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section2/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section2/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section2/statisticservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/discoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/monitoradmin/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/project4/section3/statisticservice/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

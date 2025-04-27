@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="notificationservice (2)" />
+        <module name="service-reg" />
+        <module name="accountservice (2)" />
+        <module name="accounts (1)" />
+        <module name="configserver (2) (com.eazybytes)" />
+        <module name="monitoradmin (1)" />
+        <module name="reviewms" />
+        <module name="gatewayserver" />
+        <module name="configservice (1)" />
+        <module name="loans (2)" />
+        <module name="configserver (3) (com.eazybytes)" />
+        <module name="message (2)" />
+        <module name="configservice" />
+        <module name="limits-service" />
+        <module name="notificationservice (1)" />
+        <module name="accounts (2)" />
+        <module name="loans" />
+        <module name="companyms" />
+        <module name="firstjobapp" />
+        <module name="jobms" />
+        <module name="gatewayserver (2)" />
+        <module name="accountservice (1)" />
+        <module name="configserver" />
+        <module name="gatewayservice" />
+        <module name="api-gateway" />
+        <module name="currency-exchange-service" />
+        <module name="accountservice" />
+        <module name="naming-server" />
+        <module name="statisticservice" />
+        <module name="cards" />
+        <module name="spring-cloud-config-server" />
+        <module name="gatewayserver (1)" />
+        <module name="clientregisterservice" />
+        <module name="currency-conversion-service (1)" />
+        <module name="eurekaserver" />
+        <module name="cards (1)" />
+        <module name="common" />
+        <module name="currency-conversion-service" />
+        <module name="statisticservice (2)" />
+        <module name="discoveryservice" />
+        <module name="discoveryservice (1)" />
+        <module name="eurekaserver (1)" />
+        <module name="monitoradmin" />
+        <module name="message" />
+        <module name="configserver (1) (com.eazybytes)" />
+        <module name="loans (1)" />
+        <module name="cards (2)" />
+        <module name="authservice" />
+        <module name="gatewayservice (1)" />
+        <module name="statisticservice (1)" />
+        <module name="currency-exchange-service (1)" />
+        <module name="naming-server (1)" />
+        <module name="accounts" />
+        <module name="message (1)" />
+        <module name="gateway" />
+        <module name="notificationservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configserver (1)" target="17" />
+      <module name="gateway (1)" target="17" />
+      <module name="service-reg (1)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accounts" options="-parameters" />
+      <module name="accounts (1)" options="-parameters" />
+      <module name="accountservice" options="-parameters" />
+      <module name="accountservice (1)" options="-parameters" />
+      <module name="accountservice (2)" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="authservice" options="-parameters" />
+      <module name="cards" options="-parameters" />
+      <module name="cards (1)" options="-parameters" />
+      <module name="clientregisterservice" options="-parameters" />
+      <module name="companyms" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="configserver (1)" options="-parameters" />
+      <module name="configserver (1) (com.eazybytes)" options="-parameters" />
+      <module name="configserver (2) (com.eazybytes)" options="-parameters" />
+      <module name="configservice" options="-parameters" />
+      <module name="configservice (1)" options="-parameters" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="currency-conversion-service (1)" options="-parameters" />
+      <module name="currency-exchange-service" options="-parameters" />
+      <module name="currency-exchange-service (1)" options="-parameters" />
+      <module name="discoveryservice" options="-parameters" />
+      <module name="discoveryservice (1)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="firstjobapp" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway (1)" options="-parameters" />
+      <module name="gatewayserver" options="-parameters" />
+      <module name="gatewayserver (1)" options="-parameters" />
+      <module name="gatewayservice" options="-parameters" />
+      <module name="gatewayservice (1)" options="-parameters" />
+      <module name="limits-service" options="-parameters" />
+      <module name="loans" options="-parameters" />
+      <module name="loans (1)" options="-parameters" />
+      <module name="message" options="-parameters" />
+      <module name="message (1)" options="-parameters" />
+      <module name="monitoradmin" options="-parameters" />
+      <module name="monitoradmin (1)" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
+      <module name="naming-server (1)" options="-parameters" />
+      <module name="notificationservice" options="-parameters" />
+      <module name="notificationservice (1)" options="-parameters" />
+      <module name="notificationservice (2)" options="-parameters" />
+      <module name="reviewms" options="-parameters" />
+      <module name="service-reg" options="-parameters" />
+      <module name="service-reg (1)" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="statisticservice" options="-parameters" />
+      <module name="statisticservice (1)" options="-parameters" />
+      <module name="statisticservice (2)" options="-parameters" />
+    </option>
+  </component>
+</project>
